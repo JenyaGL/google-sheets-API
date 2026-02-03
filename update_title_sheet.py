@@ -53,5 +53,3 @@ request = sheet.batchUpdate(spreadsheetId=spreadsheet_id,
 response = request.execute()
 
 print(response)
-
-
