@@ -35,11 +35,11 @@ sheet_id = '1850053363'
 
 request = sheet.batchUpdate(spreadsheetId=spreadsheet_id,
                             body={"requests":
-                                    [{"deleteSheet":
-                                        {"sheetId":sheet_id
-                                        }
-                                    }]
-                                })
+                            [{"deleteSheet":
+                            {"sheetId":sheet_id
+                            }
+                            }]
+                            })
 
 
 

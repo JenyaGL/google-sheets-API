@@ -172,7 +172,9 @@ df = pd.read_csv('data/diamonds.csv')
 pg = Pygs()
 
 # this is how to run the funtion
-#print(pg.dataframe_to_sheet(sheet_name='new sheet', dataframe=df))
+#print(pg.dataframe_to_sheet(sheet_name='new sheet name', dataframe=df))
 
 
+
+print(pg.clear_sheet(sheet_name='new sheet name'))
 

@@ -1,5 +1,8 @@
 # This notebook elaborats on how to do the following:
 # ---------------------
+
+# create a class that will do the following:
+
 # View google spreadsheet properties.
 
 # Crate a sheet within a google spreadshieet document.
@@ -15,4 +18,4 @@
 # first, we make sure that we have the key json in the configuration folder.
 # secondly, we make sure we have the google sheet in which we icnlude the account email.
 # then we create a spreadsheet_properties py. file 
-#
+# then we crate a class of all the funtions we need to this project
